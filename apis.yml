@@ -1,7 +1,6 @@
 aid: avenzo-therapeutics
 name: Avenzo Therapeutics
-description: 'Avenzo Therapeutics is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Avenzo Therapeutics is a biopharmaceutical company focused on developing next‑generation oncology therapies. The company aims to advance innovative treatments for cancer patients, leveraging cutting‑edge science and strategic partnerships to bring novel therapeutics to market.'
 url: https://raw.githubusercontent.com/api-evangelist/avenzo-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +11,10 @@ created: '2026-09-26'
 modified: '2026-09-26'
 tags:
 - Company
+- Biotech
+- Oncology
+- Therapeutics
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +22,7 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/avenzo-therapeutics-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://avenzotx.com/
